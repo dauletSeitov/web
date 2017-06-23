@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+
+.tools{
+
+list-style-type: none;
+display: inline;
+
+}
+
+
+
+
+
+
+</style>
+</head>
+<body>
+
+<ul style = "list-style-type: none">
+	<li>
+    	<img src="http://assets1.ignimgs.com/2017/04/27/2011---my-week-with-marilyn-1493315920542_1280w.jpg" alt="Search" 														style="width:500px;height:330px;border:0;">
+
+	<li>
+    
+    <div >
+    	<li class = "tools"><a href="#"><img src="https://image.flaticon.com/icons/svg/61/61456.svg" alt="Search" 														style="width:16px;height:16px;border:0;"></a></li>
+    
+		<li class = "tools"><a href="#"><img src="http://img.freepik.com/free-icon/up-arrow_318-74795.jpg?size=338c&ext=jpg" alt="Search" 														style="width:16px;height:16px;border:0;"></a></li>
+    
+    	<li class = "tools"><a href="#"><img src="https://maxcdn.icons8.com/Share/icon/Arrows//down_filled1600.png" alt="Search" 														style="width:16px;height:16px;border:0;"></a></li>
+    
+    	<li class = "tools"><h>55 poiunts</h></li>
+    
+    	<li class = "tools"><h>13 likes</h></li>
+     
+     </div>
+
+</ul>
+
+</body>
+</html>
+
+
+

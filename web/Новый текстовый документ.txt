@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.aa{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    border-left:1px solid #bbb;
+
+}
+
+.hiden {visibility: hidden}
+.visibile {visibility: visible}
+
+
+
+
+.column-left{
+  float: left;
+  margin-left: 10%;
+  margin-top: 10%;
+  text-align: left;
+}
+.column-center{
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+.column-right{
+  float: RIGHT;
+  margin-right: 10%;
+  margin-top: 10%;
+  text-align: left;
+}
+
+article {
+
+	margin-top: 10%;
+  	text-align: left;
+
+}
+
+
+
+input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+
+   
+}
+
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="#Project">Project</a></li>
+  <li><a href="#Fire">Fire</a></li>
+  <li><a href="#New">New</a></li>
+  <li style="float:right"><a href="#about">Login</a></li>
+  <li style="float:right" onclick="countRabbits()">
+  	<a>
+  		<img src="http://mecanico-liquido.com/images/lupa.png" alt="Search" 														style="width:16px;height:16px;border:0;">
+    </a>
+  </li>
+  <li style="float:right">
+		<form id="headbar-search"  class="hiden aa"  action="https://en.wikipedia.org/wiki/Emma_Watson">
+			<input type="text"  name="query" id="jsid-search-input"  data-placeholder="Type to search…"   placeholder="Type to search…">
+		</form>
+	</li>
+    
+</ul>
+
+<section class="column-left">
+
+	<article>
+    <h2>sdfsdf</h2>
+	</article>
+    
+    <article>
+    <h2>sdfsdf</h2>
+	</article>
+    
+    <article>
+    <h2>sdfsdf</h2>
+	</article>
+    
+
+
+
+</section>
+
+<section class="column-right">
+
+	<article>
+    <h2>sdfsdf</h2>
+	</article>
+    
+    <article>
+    <h2>sdfsdf</h2>
+	</article>
+    
+    <article>
+    <h2>sdfsdf</h2>
+	</article>
+    
+
+
+
+</section>
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br><br>
+<br>
+<br><br>
+<br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+
+<h2>sdfsf</h2>
+</body>
+  <script>
+
+
+window.onscroll = function(ev) {
+    if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+          alert("asdas");
+    }
+};
+  
+  
+    function countRabbits() {
+    	var isVisible =   document.getElementById("headbar-search").classList.contains('hiden');
+    	if(isVisible){
+        	document.getElementById("headbar-search").classList.remove('hiden');
+            document.getElementById("headbar-search").classList.add('visibile');
+        }
+        else
+      	{
+            document.getElementById("headbar-search").classList.remove('visibile');
+            document.getElementById("headbar-search").classList.add('hiden');
+        }	
+    }
+     
+ 
+    
+  </script>
+</html>
